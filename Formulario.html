@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="../enlaces30-09-21/style.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/nunito:n3:default;delius-swash-caps:n4:default.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+							
+	<header>
+<h1>FORMULARIO EN HTML</h1></header>
+</body>
+	<nav>
+	<ul>
+		<il><a href="head.html">Mi primera pagina</a></il>
+		<il><a href="tablas.html">tablas</a></il>
+		<il><a href="listas.html">listas</a></il>
+		<il><a href="enlaces.html">enlaces</a></il>
+		<il><a href="Formulario.html">Formulario</a></il>
+		<il><a href="animacion.html">Animación</a></il>
+		<il><a href="audio en html.html">Audio</a></il>
+		<il><a href="flexbox.html">flexbox</a></il>
+		<il><a href="imagenes en html.html">imagenes</a></il>
+		<il><a href="video.html"> video</a></il>
+		<il><a href= "inicio.html">Inicio</a></il>
+	  </ul>
+	</nav>
+<main>
+	<section>
+	  <h2>Formulario simple</h2>
+		<p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus voluptatem nulla sit quidem eos doloribus provident, est sint alias repudiandae.</p>
+	  <form action="" method="get">
+									  <label>Nombre</label>
+	    <input type= "text" id="nombre" name="nombre"><br>
+			<label>Apellido</label>
+			<input type= "text" id="Apellido" name="apellido"><br>
+		<input type= "submit" value="Enviar"><br>
+	  </form>
+	  </section>
+<section>
+	  <h2>&nbsp;</h2>
+		<p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quam.</p>
+	  <form id= "datos1" action="" method="get">
+			<label for="nombre">Nombre</label>
+	    	<input type= "text" name="nombre" id="nombre"><br>
+			<label for= "Apellido">Apellido</label>
+	    <input type= "text" id="Apellido" name="apellido"><br>
+			<label> Genero</label>
+			<input name= "genero" type="radio" id="radio" title="genero" value= "femenino">
+			<label for="genero"> femenino</label>
+			<input name="genero" type= "radio" id= "radio" title="genero" value="masculino">
+			<label for="genero"> masculino</label><br>
+		  <label for= "submit">Mes y año</label>
+		   <input name="month" type="month" class="sepia" id="month" autocomplete="on"> <br>
+			<input name= "submit" type= "submit" id="submit" formmethod="get" value ="Enviar">
+		 
+	  </form>
+</section>
+<section>
+	  <h2>&nbsp;</h2>
+	  <p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quam.</p>
+	  <form id= "datos2" action="" method="get">
+	    <label for="nombre2">Nombre</label>
+	    <input type= "text" name="nombre3" id="nombre2">
+	    <br>
+	    <label for= "Apellido2">Apellido</label>
+	    <input type= "text" id="Apellido2" name="Apellido2">
+	    <br>
+	    <label>Genero</label>
+	    <input name= "genero" type="radio" id="radio2" title="genero" value= "femenino">
+	    <label for="genero2">femenino</label>
+	    <input name="genero" type= "radio" id= "radio2" title="genero" value="masculino">
+	    <label for="genero2">masculino</label>
+	    <br>
+	    <label for= "submit2">Mes y año</label>
+	    <input name="month2" type="month" class="sepia" id="month2" autocomplete="on">
+	    <br>
+		  <label for= "time"> Hora de registro</label>
+	    <input type="time" name="time" id="time"><br>
+	    <input name= "submit2" type= "submit" id="submit2" formmethod="get" value ="Enviar">
+      </form>
+</section>
+		<section>
+	  <h2>Formulario usando checkbutton y otros</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quam.</p>
+		<form id= "datos1" action="" method="get">
+			<label for="nombre">Nombre</label>
+	    	<input type= "text" name="nombre" id="nombre"><br>
+			<label for= "Apellido">Apellido</label>
+			<input type= "text" id="Apellido" name="apellido"><br>
+			<label> Genero</label><br>
+			<input name= "genero" type="radio" id="radio" title="genero" value= "femenino">
+			<label for="genero"> femenino</label>
+			<input name="genero" type= "radio" id= "radio" title="genero" value="masculino">
+			<label for="genero"> masculino</label>
+			
+			<br>
+			<p>
+				<label>elige de la lista el genero que mas te guste</label><br>
+				<label>
+				  <input type="checkbox" name="musicafavorita" value="pop" id="musicafavorita1">POP</label>
+					<label>
+						<br>
+					<input type="checkbox" name="musicafavorita" value="rock" id="musicafavorita2">ROCK</label>
+						<br>
+					<label>
+					<input type="checkbox" name="musicafavorita" value="jazz" id="musicafavorita3">JAZZ</label>
+						<br>
+					<label>
+					<input type="checkbox" name="musicafavorita" value="blues" id="musicafavorita4">BLUES</label>
+						<br>
+			  <label>
+					<input type="checkbox" name="musicafavorita" value="alternativa" id="musicafavorita5">ALTERNATIVA</label><br>
+						<br>
+		  </p>
+			<laber for="pais">nacionalidad</laber>
+			<select name="select" id="select"><br>
+				<option value="argentina"> ARGENTINA</opcion>
+			<option value="Mexico">MEXICO</option>
+			<option value="chile">CHILE</option>
+			<option value="francia">FRANCIA</option>
+</select>
+			<input name= "submit" type= "submit" id="submit" formmethod="get" value ="Enviar"><br>
+	  </form>
+			
+</section>
+<section>
+		  <h2>&nbsp;</h2>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quam.</p>
+		  <form id= "datos3" action="" method="get">
+		    <label for="nombre3">Nombre</label>
+		    <input type= "text" name="nombre4" id="nombre3">
+		    <br>
+		    <label for= "Apellido3">Apellido</label>
+		    <input type= "text" id="Apellido3" name="Apellido3">
+		    <br>
+		    <label>Genero</label>
+		    <br>
+		    <input name= "genero" type="radio" id="radio3" title="genero" value= "femenino">
+		    <label for="genero3">femenino</label>
+		    <input name="genero" type= "radio" id= "radio3" title="genero" value="masculino">
+		    <label for="genero3">masculino</label>
+		    <br>
+		    <p>
+		      <label>elige de la lista el genero que mas te guste</label>
+		      <br>
+		      <label>
+		        <input type="checkbox" name="musicafavorita2" value="pop" id="musicafavorita6">
+		        POP</label>
+		      <label><br>
+		        <input type="checkbox" name="musicafavorita2" value="rock" id="musicafavorita7">
+		        ROCK</label>
+		      <br>
+		      <label>
+		        <input type="checkbox" name="musicafavorita2" value="jazz" id="musicafavorita8">
+		        JAZZ</label>
+		      <br>
+		      <label>
+		        <input type="checkbox" name="musicafavorita2" value="blues" id="musicafavorita9">
+		        BLUES</label>
+		      <br>
+		      <label>
+		        <input type="checkbox" name="musicafavorita2" value="alternativa" id="musicafavorita10">
+		        ALTERNATIVA</label>
+		      <br>
+		      <br>
+	        </p>
+		    <laber for="pais">nacionalidad</laber>
+		    <select name="select2" id="select2">
+		      <br>
+		      <option value="argentina">ARGENTINA
+		        </opcion>
+	          <option value="Mexico">MEXICO</option>
+		      <option value="chile">CHILE</option>
+		      <option value="francia">FRANCIA</option>
+	        </select><br>
+	<label for="color">elije tu color favorito</label>
+	<input name="color" type="color" id="color" value="#001D27"><br>
+		    <input name= "submit3" type= "submit" id="submit3" formmethod="get" value ="Enviar">
+		    <br>
+	      </form>
+</section>
+	<section>
+<h2>Formulario Organizado dentro de una tabla</h2>
+			<p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, ipsa.</p>
+			<form>
+			<table width="50%" border="0">
+  <tbody>
+    <tr>
+      <td><label for="nombre">Nombre</label>""</td>
+      <td><input type= "text" id="nombre" name"nombre"</td>
+    </tr>
+    <tr>
+     <td><label for="apellido">apellidos</label>""</td>
+      <td><input type= "text" id="apellidos" name"apellidos"</td>
+    </tr>
+    <tr>
+      <td><label for="edad">edad</label>""</td>
+      <td><input type= "number" id="edad" name"edad" min="1" max"99"></td>
+    </tr>
+    <tr>
+      <td><input name= "submit" type= "submit" id="submit" formmethod="get" value ="Enviar"></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</section>
+  <section>
+			  <h2>Formulario caja de texto</h2>
+			  <p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus voluptatem nulla sit quidem eos doloribus provident, est sint alias repudiandae.</p>
+			  <form action="" method="get">
+			    <label>Nombre</label>
+			    <input type= "text" id="nombre2" name="nombre2">
+			    <br>
+			    <label>Apellido</label>
+			    <input type= "text" id="Apellido2" name="Apellido">
+			    <br>
+			    <input type= "submit" value="Enviar">
+			    <br>
+				  <label for="textarea"></label>
+<textarea name="textarea" id="textarea"></textarea>
+		      </form>
+</section>
+  <section>
+		  <h2>Formulario caja de texto</h2>
+		  <p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus voluptatem nulla sit quidem eos doloribus provident, est sint alias repudiandae.</p>
+		  <form action="" method="get">
+		  <label>Nombre</label>
+		  <input type= "text" id="nombre4" name="nombre5">
+		  <br>
+		  <label>Apellido</label>
+		  <input type= "text" id="Apellido4" name="Apellido4">
+		  <br>
+
+		  <label for="textarea">A grega una etiqueta</label>
+		  <textarea name="textarea2" id="textarea"></textarea>
+		  </form><br>
+	   <input type= "submit" value="Enviar">
+		  <br>
+  </section>
+		
+
+  </main>
+	<footer>
+	<h5>Elaborado por Cielo Rodríguez Aylín</h5></footer>
+</html>
