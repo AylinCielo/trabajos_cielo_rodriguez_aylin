@@ -1,0 +1,214 @@
+@charset "utf-8";
+header  {
+    background-color: #005572;
+    color: #FFFFFF;
+    height: 100px;
+}
+nav {
+    height: 60px;
+    background-color: #001D27;
+    color: #FFFFFF;
+}
+footer {
+    background-color: #00BEFF;
+    height: 150px;
+}
+
+
+header  ,nav  ,section  ,footer  , main{
+    margin: 0 auto;
+    width: 80%;
+
+}
+main {
+    background-color: #008FBF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer h5 {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav ul {
+    height: 28px;
+
+
+}
+main section {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #005572;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 18px double #00BEFF;
+    overflow: auto;
+px inset #00BEFF;}
+
+
+nav ul li 
+    {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 26px;
+    display: inline-block;
+}
+
+
+
+
+header h1 {
+    font-size: 48px;
+    text-align: center;
+}
+a:link{ color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:visited{
+	color: #D35016;
+	text-decoration: none;
+	font-weight: bolder
+}
+a:active{
+	color: #00BEFF;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:hover{
+	color: #690776;
+	text-decoration: none;
+	font-weight: bolder;
+}
+.imagen1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px groove #00BEFF;
+}
+.img_flotante {
+    float: right;
+    display: inline;
+    width: 50%;
+    margin-right: 20px;
+    margin-left: 30px;
+    height: auto;
+}
+.imagengif {
+    display: block;
+    margin-left: 87px;
+    margin-right: 20px;
+}
+.parrafo {
+    color: #001D27;
+    font-size: 18px;
+    font-family: nunito;
+    font-style: normal;
+    font-weight: 300;
+}
+main section h2 {
+    color: #FFFFFF;
+    font-family: delius-swash-caps;
+    font-style: normal;
+    font-weight: 400;
+}
+.redondeada {
+    border-radius: 30px;
+    height: 237px;
+    width: 214px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.redondeado2 {
+    border-radius: 30px 50px 200px 80px;
+    height: 219px;
+    width: 212px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.redondeada3 {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+}
+.filtro {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    padding-left: 76px;
+    padding-right: 17px;
+    padding-top: 41px;
+    overflow: auto;
+}
+.blur {
+    filter: blur(5px);
+}
+.brillo {
+    filter: brightness(300%);
+
+}
+.grises {
+    filter: grayscale(50%);
+}
+.negativo {
+    filter: invert(75%);
+}
+.contraste {
+    filter: contrast(200%);
+}
+.sepia {
+    filter: sepia(60%);
+}
+.size {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tamaño {
+    width: 20%;
+    height: auto;
+}
+input[type=text] input[type=number]{background-color: #00BEFF;
+width: 50%;
+margin: 10px;
+padding: 10px;
+font-size: 18px;
+}
+.parrafo_formulario, label {font-size:18px;
+}
+input[type=submit]{background-color: #D35016;
+width: 150px;
+height: 40px;
+font-size: 18px;
+	padding: 10px;
+	margin: 10px;
+	box-sizing: border-box;
+font-weight: bold;}
+select, select option{background-color: #00BEFF;
+width: 50%;
+margin: 10px;
+padding: 10px;
+font-size: 18px}

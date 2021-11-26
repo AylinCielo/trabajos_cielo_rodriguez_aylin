@@ -1,0 +1,125 @@
+@charset "utf-8";
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+section{
+	margin:20px 0px;	
+}
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+header, nav, main, footer{
+	width: 100%;
+}
+header{
+	background-color: darkgrey;
+	color:antiquewhite;
+	height: auto;
+	text-align: center;
+		padding: 40px;
+	font-size: 48px;
+}
+nav{
+	padding: 50px;
+	background-color: black;
+		color: antiquewhite;
+	font-weight: bold;
+	
+}
+nav ul{
+	display: flex;
+	
+}
+nav ul li{
+	width: 150px;
+	list-style-type: none;
+
+}
+main{
+	display: flex;
+	background-color: aqua;
+	flex-direction: column;
+	align-items: center
+}
+.contenedor-flexible {
+	background-color: aqua;
+	display: flex;}
+.contenedor-flexible >div, .contenedor-flexible-1> div, .contenedor-flexible-2> div, .contenedor-flexible-3> div, .contenedor-flexible-4> div, .contenedor-flexible-5> div, .contenedor-flexible-6> div, .contenedor-flexible-7> div{
+	width: 400px;
+	height: 50px;
+	background-color:antiquewhite;
+		margin: 10px;
+		padding: 30px;
+	font-size: 32px;
+	text-align: center;
+}
+
+.contenedor-flexible-1> div{
+	width: 30%;
+}
+.contenedor-flexible-1{
+	background-color: cornflowerblue;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.contenedor-flexible-2{
+	background-color:chocolate;
+	display: flex;
+	flex-wrap:wrap;
+}
+.contenedor-flexible-3> div{
+	width: 20%
+}
+.contenedor-flexible-4> div{
+	height: auto
+}
+.contenedor-flexible-5> div{
+	width: 100px;
+	height: auto;
+	
+}
+.contenedor-flexible-6>div{
+	width: 100px;
+}
+.contenedor-flexible-7> div{
+	width: 200px;
+	height: 200px
+}
+.contenedor-flexible-3{
+	background-color:cyan;
+	display: flex;
+	justify-content: space-between;
+}
+.contenedor-flexible-4{
+	background-color:cyan;
+	display: flex;
+	height: 400px;
+	align-items: stretch;
+	
+}.contenedor-flexible-5{
+	background-color:cyan;
+	display: flex;
+	height: auto;
+	align-items: baseline;
+	
+}
+.contenedor-flexible-6{
+	background-color:cyan;
+	display: flex;
+	height: 800px;
+	flex-wrap: wrap;
+	align-content: space-around;
+	
+}
+.contenedor-flexible-7{
+	background-color:cyan;
+	display: flex;
+	height: 700px;
+	justify-content: center;
+	align-content:center;
+}
+
+
